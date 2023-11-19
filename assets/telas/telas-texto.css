@@ -1,0 +1,7 @@
+.telas_texto {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+    margin-bottom: 32px;
+}

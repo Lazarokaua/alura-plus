@@ -1,0 +1,7 @@
+.cabecalho_principal__titulo{
+    width: 588px;
+    height: 102px;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--branco);
+}

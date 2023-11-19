@@ -1,0 +1,13 @@
+.telas_texto__btn {
+    background-color: var(--azul);
+    width: 32rem;
+    height: 3.5rem;
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--branco);
+    text-decoration: none; 
+}
+
+.telas_texto__btn:hover{
+    background-color: var(--botao-efeito);
+}

@@ -1,0 +1,7 @@
+.dispositivos__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: var(--branco);
+    margin-top: 12%;
+}

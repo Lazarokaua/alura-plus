@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #C0C0C0;
+    --azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --font-principal: 'Inter';
+    --botao-efeito: #1e5496;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco);
+}
+
+/* fixos */

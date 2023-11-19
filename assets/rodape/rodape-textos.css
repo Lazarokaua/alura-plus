@@ -1,0 +1,13 @@
+.rodape_texto{
+    font-size: 14px;
+    margin-top: 1.2rem;
+    color: var(--cinza);
+}
+
+.rodape__texto{
+    font-size: 14px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: var(--cinza);
+    padding-bottom: 6.2rem;
+}
