@@ -1,32 +1,28 @@
-#cabecalho_button__assine{
+#container__botao{
     background-color: var(--azul);
-    width: 32rem;
-    height: 3.5rem;
     border-radius: 8px;
-    padding: 16px;
+    padding: 1em;
     display: block;
     text-decoration: none;
     color: var(--branco);
-    text-align: center;
+    margin-bottom: 1em;
 }
 
-#cabecalho_button__alluraPlus{
+#container__botao_alluraPlus{
     background-color: transparent;
     border: 1px solid var(--branco);
-    width: 32rem;
-    height: 3.5rem;
     border-radius: 8px;
-    padding: 16px;
+    padding: 1em;
     display: block;
     text-decoration: none;
     color: var(--branco);
-    text-align: center;
+    margin-bottom: 1em;
 }
 
-#cabecalho_button__assine:hover{
+#container__botao:hover{
     background-color: var(--botao-efeito);
 }
 
-#cabecalho_button__alluraPlus:hover{
+#container__botao_alluraPlus:hover{
     background-color: var(--botao-efeito);
 }

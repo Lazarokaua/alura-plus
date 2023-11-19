@@ -5,24 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/fixos.css">
-    <link rel="stylesheet" href="/assets/cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="/assets/cabecalho/cabecalho-titulo.css">
-    <link rel="stylesheet" href="/assets/cabecalho/cabecalho-img.css">
-    <link rel="stylesheet" href="/assets/cabecalho/cabecalho-buttons.css">
-    <link rel="stylesheet" href="/assets/cabecalho/cabecalho-aviso.css">
-    <link rel="stylesheet" href="/assets/cabecalho/alinha.css">
-    <link rel="stylesheet" href="/assets/plataformas/plataformas-imagem.css">
-    <link rel="stylesheet" href="/assets/plataformas/plataformas-texto.css">
-    <link rel="stylesheet" href="/assets/plataformas/plataformas-titulo.css">
-    <link rel="stylesheet" href="/assets/plataformas/plataformas.css">
-    <link rel="stylesheet" href="/assets/telas/telas-assine.css">
-    <link rel="stylesheet" href="/assets/telas/telas-botao.css">
-    <link rel="stylesheet" href="/assets/telas/telas-texto.css">
-    <link rel="stylesheet" href="/assets/telas/telas.css">
-    <link rel="stylesheet" href="/assets/cursos/cursos-texto.css">
-    <link rel="stylesheet" href="/assets/cursos/cursos-titulo.css">
-    <link rel="stylesheet" href="/assets/cursos/cursos.css">
-    <link rel="stylesheet" href="/assets/cursos/cursos-imagem.css">
+    <link rel="stylesheet" href="/assets/principal/container-aviso.css">
+    <link rel="stylesheet" href="/assets/principal/container-botao.css">
+    <link rel="stylesheet" href="/assets/principal/container-imagem.css">
+    <link rel="stylesheet" href="/assets/principal/container-titulo.css">
+    <link rel="stylesheet" href="/assets/principal/principal.css">
+    <link rel="stylesheet" href="/assets/principal/container-caixa.css">
+    <link rel="stylesheet" href="/assets/principal/container.css">
+    <link rel="stylesheet" href="/assets/principal/container-descricao.css">
+    <link rel="stylesheet" href="/assets/secundario/secundario-imagem.css">
+    <link rel="stylesheet" href="/assets/secundario/secundario-texto.css">
+    <link rel="stylesheet" href="/assets/secundario/secundario-titulo.css">
+    <link rel="stylesheet" href="/assets/secundario/secundario.css">
+    <link rel="stylesheet" href="/assets/telas/descricao-texto.css">
+    <link rel="stylesheet" href="/assets/telas/secundario-botao.css">
     <link rel="stylesheet" href="/assets/dispositivos/dispositivos-item.css">
     <link rel="stylesheet" href="/assets/dispositivos/dispositivos-lista.css">
     <link rel="stylesheet" href="/assets/dispositivos/dispositivos-titulo.css">
@@ -32,48 +28,52 @@
     <link rel="stylesheet" href="/assets/rodape/rodape-logo.css">
     <link rel="stylesheet" href="/assets/rodape/rodape-textos.css">
     <link rel="stylesheet" href="/assets/rodape/rodape.css">
+    <link rel="stylesheet" href="/assets/responsividade/responsivo.css">
     <title>Alura plus</title>
 </head>
 
 <body>
     <!-- Primeira section -->
-    <header class="cabecalho">
-        <div class="cabecalho_principal">
-            <div id="alinha">
-                <h1 class="cabecalho_principal__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por
-                    um
-                    preço
-                    único.</h1>
-                <img id="cabecalho_principal__titulo__img" src="/assets/imagens/Combo.svg" alt="aluraLingua combo">
-                <a id="cabecalho_button__assine" href="#">Assine por 12x de R$ 120,00*</a>
-                <a id="cabecalho_button__alluraPlus" href="#">Assinar somente o Alura+</a>
-                <p class="cabecalho_principal__titulo__aviso">*O preço pode variar caso a assinatura seja feita em
-                    outros planos.</p>
-            </div>
-        </div>
-    </header>
-    <!-- Segunda section -->
-    <section class="plataformas">
-        <img src="/assets/imagens/Plataformas.svg" alt="Monitor e celular abertos" class="plataformas_imagem">
-        <div class="plataforma_descricao">
-            <h2 class="plataforma_descricao__titulo">Assista do seu jeito</h2>
-            <p class="plataforma_descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer.</p>
+    <section class="principal container">
+        <div class="container__caixa">
+            <h1 class="container__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por
+                um
+                preço
+                único.</h1>
+            <img class="container__imagem" src="/assets/imagens/Combo.svg" alt="aluraLingua combo">
+            <a id="container__botao" href="#">Assine por 12x de R$ 120,00*</a>
+            <a id="container__botao_alluraPlus" href="#">Assinar somente o Alura+</a>
+            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em
+                outros planos.</p>
         </div>
     </section>
-    <section class="telas"> 
-        <div class="telas_assine">
-        <p class="telas_texto">Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da tecnologia e aprender inglês ou espanhol, onde e como quiser.</p>
-        <a class="telas_texto__btn" href="#">Assine o Combo+</a>
-        </div>
-        <img class="telas_texto__btn__img" src="/assets/imagens/Telas.svg" alt="tela da plataforma Alura">
+    <!-- Segunda section -->
+    <section class="container secundario">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assista do seu jeito</h2>
+            <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros
+                aparelhos. Nossa seleção de cursos não para de crescer.</p>
+            </div>
+            <img src="/assets/imagens/Plataformas.svg" alt="Monitor e celular abertos" id="secundario_imagem1">
     </section>
     <!-- Terceira section -->
-    <section class="cursos">
-        <img src="/assets/imagens/Notebook.svg" alt="Notebook" class="curso_img">
-        <div class="cursos_baixe">
-            <h2 class="cursos_baixe__titulo">Baixe seus cursos</h2>
-            <p class="cursos_baixe__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.</p>
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos
+                de diversas áreas da tecnologia e aprender inglês ou espanhol, onde e como quiser.</p>
+            <a class="container__botao secundario__botao" href="#">Assine o Combo+</a>
         </div>
+        <img class="secundario__imagem" src="/assets/imagens/Telas.svg" alt="tela da plataforma Alura">
+    </section>
+    <!-- quarta section -->
+    <section class="container secundario">
+        <img src="/assets/imagens/Notebook.svg" alt="Notebook" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Baixe seus cursos</h2>
+            <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com
+                você, até mesmo sem internet.</p>
+        </div>
+        <!-- quinta section -->
     </section>
     <section class="dispositivos">
         <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
@@ -92,33 +92,37 @@
             </li>
         </ul>
     </section>
+    <!-- footer -->
     <footer class="rodape">
-        <img src="/assets/imagens/Logo.svg" alt="Alura +" class="rodape__logo" >
+        <img src="/assets/imagens/Logo.svg" alt="Alura +" class="rodape__logo">
         <ul class="rodape__lista">
-            <li> 
+            <li>
                 <a class="lista__link" href="#">Idioma</a>
             </li>
-            <li> 
+            <li>
                 <a class="lista__link" href="#">Dispositivos compatíveis</a>
             </li>
-            <li> 
+            <li>
                 <a class="lista__link" href="#">Contrato de assinatura</a>
             </li>
-            <li> 
+            <li>
                 <a class="lista__link" href="#">Politica de privacidade</a>
             </li>
-            <li> 
+            <li>
                 <a class="lista__link" href="#">Proteção de dados no Brasil</a>
             </li>
-            <li> 
+            <li>
                 <a class="lista__link" href="#">Anuncios personalizados</a>
             </li>
-            <li> 
+            <li>
                 <a class="lista__link" href="#">Ajuda</a>
             </li>
         </ul>
-        <p class="rodape_texto">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
-        <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
+        <p class="rodape_texto">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de assinatura
+            paga. Conteúdo sujeito a disponibilidade.</p>
+        <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O
+            serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São
+            Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
     </footer>
 </body>
 </html>

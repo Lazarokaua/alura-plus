@@ -1,0 +1,13 @@
+.secundario__botao {
+    background-color: var(--azul);
+    border-radius: 8px;
+    padding: 1em;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--branco);
+    margin-top: 1em;
+} 
+
+.secundario__botao:hover{
+    background-color: var(--botao-efeito);
+}
